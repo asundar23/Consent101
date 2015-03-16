@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ConsentApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="wic">What Consent Looks Like</string>
+    <string name="criteria">Criteria of Consent</string>
+
+    <string-array name="hotline_list">
+        <item>Sexual Assault Resource Agency</item>
+        <item>Rape, Abuse and Incest National Network</item>
+        <item>After Silence</item>
+        <item>Reddit - Rape Subreddit</item>
+    </string-array>
+
+    <string-array name="types_of_support">
+        <item>Online Resources</item>
+        <item>Phone Hotlines</item>
+        <item>Concerned Friend</item>
+    </string-array>
+
+    <string-array name="options_hotlines">
+        <item>Hotlines</item>
+        <item>Types of Support</item>
+    </string-array>
+
+    <string-array name="video_names">
+        <item>Delaware - Use Your Power, Ask For Consent</item>
+        <item>Consent Music Video</item>
+        <item>Laci Green - Consent</item>
+        <item>Consent Explained by a Pornographic Actress</item>
+        <item>Sexplanations - Consent</item>
+        <item>NYU - Consent</item>
+        <item>Tera Bruinsma - Story</item>
+        <item>Northwestern - Difference Between Sex and Rape</item>
+        <item>Carleton University - Consent</item>
+        <item>John Calin - ReThinking Sexual Assault</item>
+    </string-array>
+
+
+    <string-array name="questions">
+        <item>Myth or Fact: Rape is a crime of uncontrollable sexual passion or urge</item>
+        <item>Myth or Fact: Rape is defined as a sexual crime committed by strangers</item>
+        <item>Myth or Fact: Only women can be victims of sexual violence.</item>
+        <item>Myth or Fact: In order for a situation to be considered rape, the victim must fight back physically.</item>
+        <item>Myth or Fact: If a person goes to another person’s room and “makes out,” it means that she/he wants to have sex.</item>
+        <item>Myth or Fact: </item>
+        <item>Myth or Fact: </item>
+        <item>Myth or Fact: </item>
+        <item>Myth or Fact: </item>
+        <item>Myth or Fact: </item>
+        <item>Myth or Fact: </item>
+        <item>Myth or Fact: </item>
+        <item>Myth or Fact: </item>
+        <item>Myth or Fact: </item>
+        <item>Myth or Fact: </item>
+    </string-array>
+
+</resources>

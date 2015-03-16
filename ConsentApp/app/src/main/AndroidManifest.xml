@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashwin.asundar.consentapp" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Consent 101"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ashwin.asundar.consentapp.Home"
+            android:label="Consent 101: A Guide to Consent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.WhatConsentLooksLike"
+            android:label="@string/wic" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.CriteriaOfConsent"
+            android:label="@string/criteria" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.Hotlines"
+            android:label="Hotlines" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.Links"
+            android:label="Links" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.Statistics"
+            android:label="Statistics" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.Definitions"
+            android:label="Definitions" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.EmpoweredBystander2"
+            android:label="Empowered Bystander Explained" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.SexualAssault2"
+            android:label="Sexual Assault Explained" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.Rape2"
+            android:label="Rape Explained" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.Harasment"
+            android:label="Harassment Explained" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.Stalking2"
+            android:label="Stalking Explained" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.Quizzes"
+            android:label="Quizzes" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.WhyIsConsentImportant"
+            android:label="Why is Consent Important?" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:name="com.ashwin.asundar.consentapp.ConsentLaws"
+            android:label="Consent Laws" >
+        </activity>
+
+    </application>
+
+</manifest>

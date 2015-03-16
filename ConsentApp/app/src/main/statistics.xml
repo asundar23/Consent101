@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/b5f"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/the_statistic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/directions"
+        android:layout_above="@+id/statistic_source"
+        android:layout_marginBottom="50dp"
+        android:text="Click on the statistic to see the next one!"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/statistic_source"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

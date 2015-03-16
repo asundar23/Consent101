@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Consent101: A Guide to Consent.iml" filepath="$PROJECT_DIR$/Consent101: A Guide to Consent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConsentApp.iml" filepath="$PROJECT_DIR$/ConsentApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+
